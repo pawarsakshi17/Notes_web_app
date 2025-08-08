@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+.note-card {
+    transition: all 0.3s ease;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+.note-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+.note-card:nth-child(even) {
+    background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+}
+
+.note-card:nth-child(3n) {
+    background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+}
+
+.note-card:nth-child(4n) {
+    background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%);
+}
+
+.note-card:nth-child(5n) {
+    background: linear-gradient(135deg, #fa709a 0%, #fee140 100%);
+}
+
+.modal-backdrop {
+    backdrop-filter: blur(5px);
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.search-highlight {
+    background-color: #fef08a;
+    padding: 1px 2px;
+    border-radius: 2px;
+}
